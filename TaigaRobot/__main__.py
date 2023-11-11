@@ -221,10 +221,10 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="Taiga_"),
-                            InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/Senseiupdates"),
+                            InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/AloneXBots"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="http://t.me/senseisupportgroup"),
+                            InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="http://t.me/AlonesHeaven"),
                             InlineKeyboardButton(text=gs(chat.id, "network_button"), callback_data="stats_callback"),
                         ]
                     ]
@@ -242,9 +242,9 @@ reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                "sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/senseisupportgroup"),
+                                "sᴜᴘᴘᴏʀᴛ", url=f"http://t.me/AlonesHeaven"),
                             InlineKeyboardButton(
-                                "ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/senseiupdates")
+                                "ᴜᴘᴅᴀᴛᴇs", url=f"http://t.me/AloneXBots")
                 
                         ],
                     ]
@@ -441,14 +441,14 @@ def Taiga_about_callback(update, context):
                     [
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/riasgremoryprobot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/AloneXRobot?startgroup=new"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="Taiga_"),
-                            InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/Senseiupdates"),
+                            InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/AloneXBots"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="http://t.me/senseisupportgroup"),
+                            InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="http://t.me/AlonesHeaven"),
                             InlineKeyboardButton(text=gs(chat.id, "network_button"), callback_data="stats_callback"),
 
                         ]
@@ -492,8 +492,8 @@ def Taiga_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="https://t.me/senseisupportgroup"),
-                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/senseisupportgroup"),
+                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="http://t.me/AlonesHeaven"),
+                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="http://t.me/AloneXBots"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="Taiga_"),
@@ -509,11 +509,11 @@ def Taiga_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Rogue Sensei", url="https://t.me/roguesensei"),
+                        InlineKeyboardButton(text="Rogue Sensei", url="http://t.me/AloneXBots"),
                     ],
                     [
-                        InlineKeyboardButton(text="Light Yagami", url="https://github.com/Light-Sensei"),
-                        InlineKeyboardButton(text="Repo", url="https://github.com/TomozakiOp/TaigaGremoryRobot"),
+                        InlineKeyboardButton(text="Alone GitHub", url="https://github.com/TeamAloneOp"),
+                        InlineKeyboardButton(text="Repo", url="https://github.com/TeamAloneOp/AloneXRobot"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="Taiga_"),
@@ -558,10 +558,10 @@ def Source_about_callback(update, context):
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
                             InlineKeyboardButton(text=gs(chat.id, "darling_button"), url="tg://settings"),
-                            InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="t.me/sensei_arena"),
+                            InlineKeyboardButton(text=gs(chat.id, "chat_grp_button"), url="http://t.me/AlonesHeaven"),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/riasgremoryprobot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/AloneXRobot?startgroup=new"),
                         ]
                     ]
                 ),
